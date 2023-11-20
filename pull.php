@@ -70,8 +70,7 @@ $result = $conn->query($sql);
               </div>
             </div>
           </nav>
-        <!-- navbar -->
-     <!-- product cards -->
+
     <div class="container" id="product-cards">
       <h1 class="text-center">Pull</h1>
       <div class="row" style="margin-top: 30px;">
@@ -141,7 +140,7 @@ $result = $conn->query($sql);
                 <div class="messagebtn text-center"><button>Message</button></div>
             </div>
         </div>
-     <!-- newslater -->
+ 
         <div class="container" id="newslater">
           <h3 class="text-center">Subscribe To The E-Shop For Latest upload.</h3>
           <div class="input text-center">
@@ -149,9 +148,7 @@ $result = $conn->query($sql);
             <button id="subscribe">SUBSCRIBE</button>
           </div>
         </div>
-        <!-- newslater -->
-    
-        <!-- footer -->
+
         <footer id="footer">
           <div class="footer-top">
             <div class="container">

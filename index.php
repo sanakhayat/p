@@ -58,7 +58,7 @@ $result = $conn->query($sql);
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Produit</a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:#C3A6A0">
                   <li><a class="dropdown-item" href="pantalon.php">Pantalons</a></li>
-                  <li><a class="dropdown-item" href="chaussure.php">Chaussures</a></li>
+                  <li><a class="dropdown-item" href="chaussure">Chaussures</a></li>
                   <li><a class="dropdown-item" href="manteaux.html">Mantaux</a></li>
                   <li><a class="dropdown-item" href="pull.php">Pull</a></li>
                 </ul>
