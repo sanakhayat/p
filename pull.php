@@ -14,7 +14,7 @@ $sql = "SELECT * FROM `pull` ";
 $result = $conn->query($sql);
 
 ?>
-<HTML>
+<html>
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,19 +40,19 @@ $result = $conn->query($sql);
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Product</a>
+                    <a class="nav-link" href="#">Produit</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Category
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #F7F1F0;">
-                      <li><a class="dropdown-item" href="#">Pantalons</a></li>
-                      <li><a class="dropdown-item" href="#">Chaussures</a></li>
-                      <li><a class="dropdown-item" href="manteaux.html">Mantaux</a></li>
+                      <li><a class="dropdown-item" href="pantalon.php">Pantalons</a></li>
+                      <li><a class="dropdown-item" href="chaussure.php">Chaussures</a></li>
+                      <li><a class="dropdown-item" href="manteaux.php">Manteaux</a></li>
                       <li><a class="dropdown-item" href="pull.php">Pull</a></li>
                     </ul>
                   </li>
